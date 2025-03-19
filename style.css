@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+font-weight: normal;
+background: #f1f1f1;
+}
+
+.contanier {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 30px;
+}
+.info {
+  display: flex;
+}
+
+.info-text {
+  margin-right: 80px;
+}
+
+
+.avatar {
+  width: 200px;
+  border-radius: 28px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, .30);
+}
+
+.info-text p { 
+  font-style: italic;
+  color: rgb(24, 23, 23);
+  margin: 0;
+}
+
+.info-text h4{
+  margin-bottom: 10px;
+}
+
+.card {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: darkorange;
+}
+
+a:visited {
+  color: darkblue;
+}
+
+.bg-red {
+  background: #ffe5e5;
+}
+
+.bg-green {
+  background: #e5ffe7;
+}
+
+.btn {
+  background: #111;
+  padding: 10px 15px;
+  border: none;
+  color: #fff;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.list {
+  padding: 0 20px;
+}
+
+.list li{
+  color: lightslategrey;
+  margin-bottom: 5px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding-bottom: 5px;
+}
+
+.table td:nth-child(2) {
+  color: olive;
+}
+
+.table td:nth-child(3) {
+  color: olive;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #86898f;
+}
+
+.form-group input, 
+.form-group textarea{
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
